@@ -6,7 +6,8 @@
 
 def happy_birthday(birthday_kids)
   birthday_kids.collect do |key,value|
-    puts 
+    puts "Happy Birthday #{key}! You are now #{value} years old!"
+  end
 end
 
 
